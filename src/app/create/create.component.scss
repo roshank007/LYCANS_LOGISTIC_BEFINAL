@@ -1,0 +1,147 @@
+
+
+.example-container {
+  display: flex;
+  margin-top: 6%;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 30%;
+  border-block-start-style: solid;
+  border-block-end-style: solid;
+  border-block-start-width: 30px;
+  align-self: center;
+}
+.example-full-width {
+  width: 98%;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.a{
+  padding: 50%;
+}
+
+.b{
+  padding: 90%;
+}
+
+
+.example-button-toggle-label {
+  display: inline-block;
+  margin: 16px;
+}
+
+
+// Colors
+$green: #113d9c;
+$white: #fff;
+
+// Misc
+$curve: cubic-bezier(0.650, 0.000, 0.450, 1.000);
+
+.checkmark {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: $white;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px $green;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: $green;
+  fill: none;
+  animation: stroke .6s $curve forwards;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke .3s $curve .8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px $green;
+  }
+}
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.modal {
+  background: dodgerblue;
+  height: 1px;
+  overflow: hidden;
+  position: fixed;
+    top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s ease 0.5s,
+              height 0.5s ease;
+  width: 0;
+}
+
+.content {
+  color: transparent;
+  font-family: 'Consolas', arial, sans-serif;
+  font-size: 2em;
+  position: absolute;
+    top: 50%;
+  text-align: center;
+  transform: translate3d(0,-50%,0);
+  transition: color 0.5s ease;
+  width: 100%;
+}
+
+label {
+  color: dodgerblue;
+  cursor: pointer;
+  font-family: 'Consolas', arial, sans-serif;
+  font-size: 2em;
+  position: fixed;
+    left: 50%;
+    top: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  transition: color 0.5s ease 0.5s;
+}
+
+agm-map {
+  width: 42vw;
+  height: 80vh;
+}

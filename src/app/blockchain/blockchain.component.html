@@ -1,0 +1,15 @@
+    <div class="row" [@listAnimation]="dataSource3.length">
+        <div class="col-1" *ngFor="let item of dataSource3; let i = index" [attr.data-index]="i">
+
+            <mat-card>
+                <mat-card-header>
+                    <h2>Block {{i}}</h2>
+                </mat-card-header>
+                <mat-card-content>
+                 Key = {{item.Key}}
+                </mat-card-content>
+                </mat-card>
+
+        </div>
+      </div>
+

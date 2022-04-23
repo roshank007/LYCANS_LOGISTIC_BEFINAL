@@ -1,0 +1,43 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  padding: 6%;
+}
+
+.example-container {
+  display: flex;
+  margin-top: 6%;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 30%;
+  border-block-start-style: solid;
+  border-block-end-style: solid;
+  border-block-start-width: 30px;
+  align-self: center;
+}
+
+// /* content */
+// .row div {
+//   padding: 3%;
+//   text-align: right;
+// }
+
+/* 1/12 */
+.col-1 {
+  width: 25%;
+  padding: 2%;
+}
+
+.a {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap;
+
+  display: inline-block;
+height: 10%;
+}
+

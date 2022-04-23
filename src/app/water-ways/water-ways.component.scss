@@ -1,0 +1,36 @@
+
+
+.example-container {
+  display: flex;
+  margin-top: 6%;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 30%;
+  border-block-start-style: solid;
+  border-block-end-style: solid;
+  border-block-start-width: 30px;
+  align-self: center;
+}
+.example-full-width {
+  width: 98%;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+.a{
+  padding: 50%;
+}
+
+.b{
+  padding: 90%;
+}
+
+
+.example-button-toggle-label {
+  display: inline-block;
+  margin: 16px;
+}

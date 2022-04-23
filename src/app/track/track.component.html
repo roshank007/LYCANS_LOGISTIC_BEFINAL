@@ -1,0 +1,67 @@
+<div>
+    <mat-card>
+        <mat-card-content>
+          <form [formGroup]="profileForm" (ngSubmit)="hello()">
+            <mat-form-field >
+              <input
+                matInput
+                placeholder="Email address"
+                type="text"
+                formControlName="email"
+              />
+            </mat-form-field>
+            <button mat-raised-button color="primary" type="submit">
+              Register Company
+            </button>
+          </form>
+        </mat-card-content>
+      </mat-card>
+
+</div>
+
+    <div class="col-1" *ngIf="dataSource3 != null">
+
+        <mat-card>
+            <mat-card-header>
+                <div *ngIf="dataSource3.grower != null">
+
+                    <h2>grower:{{grower}}</h2>
+                    <h3>Address:{{gadd}}</h3>
+                    <h3>organization:{{gorg}}</h3>
+                    <h2>trader:{{trader}}</h2>
+                    <h3>Address:{{tadd}}</h3>
+                    <h3>organization:{{torg}}</h3>
+
+                </div>
+                </mat-card-header>
+                <mat-card-content>
+                  <div *ngIf="dataSource3.afterTaste == 'Is Critical for at 30 degree should be 20 degree'">
+
+                    <h2>Cause by: {{ tempdata }} at {{dataSource3.timestamp | date:'hh:mm:ss a' }} </h2>
+                    <h3>Detail of cause:{{ st }}</h3>
+
+                  </div>
+
+                  <div *ngIf="dataSource3.acidity == 'Was Critical for 10 min at 30 degree'">
+
+                      <h2>Resolved by: {{ tempdata }} at {{dataSource3.body | date:'hh:mm:ss a'}} </h2>
+                      <h3>Detail of Solution:{{ dataSource3.acidity }}</h3>
+
+                    </div>
+
+                </mat-card-content>
+            <mat-card-content>
+
+                <button mat-raised-button color="primary" (click)="alldata()">
+                    More Data
+                  </button>
+
+                  <div *ngIf="ve">
+                    <h4>{{dataSource3 | json}}</h4>
+                  </div>
+
+            </mat-card-content>
+            </mat-card>
+
+    </div>
+
