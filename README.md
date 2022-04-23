@@ -5,7 +5,7 @@ Lycans logistics is a BlockChain and IOT powered supply chain management system 
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```shell
-git clone https://github.com/RajARROW/Lycans-logistics.git
+git clone https://github.com/roshank007/LYCANS_LOGISTIC_BEFINAL.git
 cd my-proj
 ```
 
@@ -73,14 +73,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Credits
 
-* **Raj Matariya** - *Well of course me* - [RajARROW](https://github.com/RajARROW)
+* **Raj Matariya** - 
 
-* **Abhishek Shah** - *A constant ally in the development. Thanks to you for Chaincode* - [](https://github.com/RajARROW)
+* **Abhishek Shah** - 
 
-* **Roshan Kalyani** - *Thanks to you for UI* - [](https://github.com/RajARROW)
+* **Roshan Kalyani** - 
 
-* **Keval Motivaras** - *Thanks to you for UI* - [](https://github.com/RajARROW)
+* **Keval Motivaras** 
 
-## License
 
-Don't understand licenses much! ;)
