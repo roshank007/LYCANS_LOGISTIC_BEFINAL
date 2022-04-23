@@ -81,9 +81,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 * **Raj Matariya** - (150410116036)
 
-## Achievement 
+## <h1> Achievement </h1>
 
-Secured <h1> 1st place </h1> in  <h1> Sarjan-2019 Project Fair </h1> cum Competition was arranged on 13/04/2019 where total 56 teams participated. 
+Secured 1st place  in Sarjan-2019 Project Fair  cum Competition was arranged on 13/04/2019 where total 56 teams participated. 
 
 More details : https://admin.svitvasad.ac.in/DataImages/637510536232844122.pdf
 
