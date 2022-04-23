@@ -85,11 +85,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 * **Raj Matariya** - (150410116036)
 
-## <h1> Achievement </h1>
+## <h1> Achievements </h1>
 
-Secured 1st place  in Sarjan-2019 Project Fair  cum Competition was arranged on 13/04/2019 where total 56 teams participated. 
+### Secured 1st place  in Sarjan-2019 Project Fair  cum Competition was arranged on 13/04/2019 where total 56 teams participated. 
 
-More details : https://admin.svitvasad.ac.in/DataImages/637510536232844122.pdf
+### More details : https://admin.svitvasad.ac.in/DataImages/637510536232844122.pdf
+
+### Applied patent for our project at India, where funding approved from Gujarat Government:
+
+Indian Patent Application No: IN 201921035895  Dated on 06/09/2019
+
+  Title: A SMART DEVICE FOR LIVE TRACKING LOGISTICS.
+
+  Applicant:
+
+             Abhishek Shah
+
+             Roshan Kalyani
+
+             Keval Motivaras
+             
+             Raj Matariya
+
 
 
 
