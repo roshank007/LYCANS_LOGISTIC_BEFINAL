@@ -1,5 +1,9 @@
 <h1>  Lycans-Logistics </h1>
-Lycans logistics is a BlockChain and IOT powered supply chain management system which provides control of the supply to only the participants involved in the process. 
+
+Lycans logistics is a BlockChain and IOT powered supply chain management system which provides control of the supply to only the participants involved in the process.
+
+Me and my partners made this project as final project of our Bachelor of Engineering in Information Technology at  <a href="https://www.svitvasad.ac.in/" target="_blank">Sardar Vallabhbhai Patel Institute Of Technology.</a>
+
 
 ## Getting Started
 
@@ -84,6 +88,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## <h1> Achievement </h1>
 
 Secured 1st place  in Sarjan-2019 Project Fair  cum Competition was arranged on 13/04/2019 where total 56 teams participated. 
+
+<form action="https://admin.svitvasad.ac.in/DataImages/637510536232844122.pdf">
+    <input type="submit" value="More Details Click" />
+</form>
 
 More details : https://admin.svitvasad.ac.in/DataImages/637510536232844122.pdf
 
