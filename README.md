@@ -73,12 +73,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Credits
 
-* **Raj Matariya** - 
+* **Abhishek Shah** - (150410116002)
 
-* **Abhishek Shah** - 
+* **Roshan Kalyani** - (150410116024)
 
-* **Roshan Kalyani** - 
+* **Keval Motivaras** - (150410116027)
 
-* **Keval Motivaras** 
+* **Raj Matariya** - (150410116036)
+
+
+
 
 
